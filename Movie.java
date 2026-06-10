@@ -1,29 +1,35 @@
-public class Movie {
+public class Movie
+{
     private String title;
     private String genre;
     private double rating;
     private int year;
 
-    public Movie(String title, String genre, double rating, int year) {
+    public Movie(String title, String genre, double rating, int year)
+    {
         this.title = title;
         this.genre = genre;
         this.rating = rating;
         this.year = year;
     }
 
-    public String getTitle() {
+    public String getTitle()
+    {
         return title;
     }
 
-    public String getGenre() {
+    public String getGenre()
+    {
         return genre;
     }
 
-    public double getRating() {
+    public double getRating()
+    {
         return rating;
     }
 
-    public int getYear() {
+    public int getYear()
+    {
         return year;
     }
 }
